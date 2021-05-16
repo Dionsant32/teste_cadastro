@@ -1,0 +1,97 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica, sans-serif;
+    color: #323232;
+    border: nome;
+}
+
+input,
+label {
+    display: block;
+    width: 100%;
+}
+
+input:focus,
+label:focus {
+    outline: nome;
+}
+
+a {
+    color: blueviolet;
+}
+
+body {
+    padding-top: 5vh;
+}
+
+#main-container {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: cornsilk;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+#main-container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.6rem;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.full-box {
+    flex: 1 1 100%;
+    position: relative;
+}
+
+.half-box {
+    flex: 1 1 45%;
+    position: relative;
+}
+
+.spacing {
+    margin-right: 5%;
+}
+
+label {
+    font-weight: bolder;
+    font-size: .8rem;
+}
+
+.imput {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 40 px;
+}
+
+.imput:focus {
+    border-color: lime;
+}
+
+input[type="submit"] {
+    background-color: lime;
+    color: linen;
+    border: nome;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#agrement {
+    margin-right: 5px;
+}
+
+#agrement,
+#agrement-label {
+    display: inline-block;
+    width: auto;
+}
