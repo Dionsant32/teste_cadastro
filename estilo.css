@@ -1,4 +1,4 @@
- {
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,7 +6,6 @@
     color: #323232;
     border: none;
 }
-
 input,
 label {
     display: block;
@@ -14,17 +13,13 @@ label {
     width: 100%;
 }
 
-a {
-    color: #E60084;
-}
-
 body {
     padding-top: 5vh;
     background-image: url('../img/bg-register-page.jpg');
     background-size: cover;
     background-position-y: -150px;
+    background-color: rgb(165, 166, 212);
 }
-
 
 
 
@@ -75,9 +70,6 @@ input {
     margin-bottom: 40px;
 }
 
-input:focus {
-    border-color: #E60084;
-}
 
 input[type="submit"] {
     background-color: #E60084;
@@ -88,12 +80,14 @@ input[type="submit"] {
     cursor: pointer;
     margin: auto;
 }
+input:focus {
+    border-color: #E60084;
+}
 
 #agreement {
     margin-right: 0;
 }
 
-#agreement,
 #agreement-label {
     display: inline-block;
     width: auto;
