@@ -1,3 +1,6 @@
+var atual;
+var localStorage = Window.localStorage;
+
 function gravar(){ 
     var novo = new Object(); 
     novo.cpf=document.getElementById("cpf").value; 
