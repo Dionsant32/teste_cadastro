@@ -12,18 +12,22 @@
             <form id="registro">
                 <div class="full-box">
                     <label for="email">Email</label>
-                    <input type="email" name="Email" id="email" placeholder="Digite seu email">
-                <div class="half-box spacing">
+                    <input type="email" name="email" id="email" placeholder="Digite seu email">
+                <div class="full-box">
                     <label for="password">Senha</label>
                     <input type="password" name="password" id="password" placeholder="Digite a sua senha">
                 </div>
-                <div class="half-box">
-                    <input type="submit" id="btn-entrar" value="Entrar">
+                <div>
+                    <p><a href="http://127.0.0.1:5500/Html">Esqueceu a senha?</a></p>
                 </div>
                 <div class="half-box">
-                        <input type="submit" id="a" value="Cadastrar">
+                    <input type="submit" id="btn-submit" value="Entrar">
+                </div>
+                <div class="half-box">
+                    <button><a href = "http://127.0.0.1:5502/Untitled-1.html">Cadastrar</a></button>
                 </div>
             </form>
         </div>
+        <script scr="java.js"></script>
     </body>
 </html>
