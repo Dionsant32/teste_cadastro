@@ -1,1 +1,1 @@
-<?php include_once("entrada.html"); ?>
+<?php include_once("entrar.html"); ?>
